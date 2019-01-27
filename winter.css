@@ -1,0 +1,46 @@
+body{
+    background-color: #dffafa;
+    font-family: 'Iceberg', cursive;
+}
+
+#nav{
+    font-size: 1.5rem;
+    
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0,0,0);
+}
+
+#nav .nav-link:hover{
+    background: white;
+    color: black;
+}
+
+#nav .navbar-brand{
+    font-weight: lighter;
+    font-size: 3rem;
+}
+
+img{
+    padding: 0px;
+}
+
+p{
+    font-family: Lato;
+}
+
+.navbar.scrolled{
+    background: rgb(122, 172, 247);
+    transition: background 1s;
+}
+
+@media (max-width: 1200px){
+    #fix .col-10{
+        font-size: 0.9rem;
+    }
+}
+
+.space{
+    margin-top: 50px;
+}
